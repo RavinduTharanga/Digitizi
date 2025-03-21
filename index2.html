@@ -23,16 +23,52 @@
 
             <div class="text-section">
                 <div class="tabs">
-                    <button id = "tab1" class="tab ">Overview</button>
-                    <button id = "tab2" class="tab">Features</button>
-                    <button id = "tab3" class="tab">Specifications</button>
+                    <button onclick=display_Overview() id = "tab1" class="tab ">Overview</button>
+                    <button onclick=display_Features() id = "tab2" class="tab">Features</button>
+                    <button onclick=display_Spec() id = "tab3" class="tab">Specifications</button>
                 </div>
 
-                <div class="description">
+                <div id="Overview" class="Overview">
                     <p>
                         The DDI-11E is a dual-line external Digital Alarm Communicator Receiver (DACR) module capable 
                         of processing several Digital Alarm Communicator Transmitter (DACT) formats, including Contact 
                         ID account information. Only one DDI-11E may be connected to a System 3505 Prism Lx™ (Consult 
+                        factory for expansion beyond one DDI11F).
+                    </p>
+                    <p>
+                        The Digi information from the receiver into the proper format for processing 
+                        by the System 3505 Prism Lx™lkjskd o. Eight conversion tables including "On the Fly" conversions are 
+                        provided by the SYSTEM 3505 Prism Lx™.
+                    </p>
+                    <p>
+                        The DDI-11E is a dual-line external DACR module (P/N 425196-0005 and 425196-0006) that will accept 
+                        any pulsed dialer rate from 10 to 40 (37) RPS using 3x2, 4x1, or 4x2 format and Contact ID 
+                        (See complete format list on backside).
+                    </p>
+                </div>
+                <div id ="F" class="Features">
+                    <p>
+                        The DDI-11E is a dual-line external Digital Alarm Communicator Receiver (DACR) module capable 
+                        of processing several Digital .
+                    </p>
+                    <p>
+                        The Digital Dialer Interface option allows the System 3505 Prism Lx™ to receive alarms through a 
+                        dial-up telephone network (POTS line). The Dialer Option with Negative Dialer Option software 
+                        provides conversion of coded information from the receiver into the proper format for processing 
+                        by the System 3505 Prism Lx™. Eight conversion tables including "On the Fly" conversions are 
+                        provided by the SYSTEM 3505 Prism Lx™.
+                    </p>
+                    <p>
+                        The DDI-11E is a dual-line external DACR module (P/N 425196-0005 and 425196-0006) that will accept 
+                        any pulsed dialer rate from 10 to 40 (37) RPS using 3x2, 4x1, or 4x2 format and Contact ID 
+                        (See complete format list on backside).
+                    </p>
+                </div>
+                <div id ="Spec" class="Specifications">
+                    <p>
+                        The DDI-11E is a dual-line external Digital Alarm Communicator Receiver (DACR) module capable 
+                        of processing several Digital Alarm Communicator Transmitter (DACT) formats, including Contact 
+                        ID account information. (Consult 
                         factory for expansion beyond one DDI11F).
                     </p>
                     <p>
@@ -51,6 +87,7 @@
             </div>
         </div>
     </div>
+    <script src="scripts.js"></script>
 
 </body>
 </html>

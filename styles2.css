@@ -1,13 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    
     background-color: white;
+    font-family: 'Roboto',  sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
     margin: 10%;
-    padding: 0;
+    margin-top: 0;
 }
 
 .container {
-    
- 
+   
+
    
 }
 
@@ -69,7 +72,7 @@ body {
 }
 
 
-.description{
+.Overview{
     font-size: 14px;
     padding: 10px;
     border: 1px solid #1e90ff;
@@ -78,7 +81,37 @@ body {
 
 
 }
+.Features{
+    display: none;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #1e90ff;
+    border-radius: 0 10px 0 10px;
+    margin-top: 32px;
+}
+.Specifications{
+    display: none;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #1e90ff;
+    border-radius: 0 10px 0 10px;
+    margin-top: 32px;
+}
 .text-section {
     width: 65%;
     border-radius: 10px; /* Rounded corners */
+}
+
+
+/* Responsive Design */
+@media(min-width: 350px) and (max-width: 600px){
+    
+   .content{
+    flex-direction: column;
+   }
+   .text-section{
+    width: 100%;
+   }
+   
+
 }
